@@ -3,11 +3,12 @@ __credits__ = ["Intelligent Unmanned Systems Laboratory at Westlake University."
 import os
 import sys
 sys.path.append("..")
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-from Utils.gridworld.examples.arguments import args
+from examples.arguments import args
 
 # GridWorld类：实现一个网格世界环境，用于强化学习实验
 class GridWorld():
