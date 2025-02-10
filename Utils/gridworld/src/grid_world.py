@@ -56,7 +56,7 @@ class GridWorld():
         assert action in self.action_space, "Invalid action"
 
         # 获取下一个状态和奖励
-        next_state, reward  = self._get_next_state_and_reward(self.agent_state, action)
+        next_state, reward  = self.get_next_state_and_reward(self.agent_state, action)
         done = self._is_done(next_state)
 
         # 添加一些随机噪声使轨迹显示更自然
@@ -73,7 +73,7 @@ class GridWorld():
         return self.agent_state, reward, done, {}
 
     # 根据当前状态和动作计算下一个状态和奖励
-    def _get_next_state_and_reward(self, state, action):
+    def get_next_state_and_reward(self, state, action):
         x, y = state
         new_state = tuple(np.array(state) + np.array(action))
 
