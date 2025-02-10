@@ -9,6 +9,6 @@ dist/
 *.pyc
 */__pycache__
 *.idea/
-*.ipynb
-*example*
+*.out
 *.lock
+.DS_Store
