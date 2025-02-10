@@ -1,0 +1,14 @@
+.iml
+/TODO
+build/
+dist/
+*.log
+*zip
+*.npy
+*.csv
+*.pyc
+*/__pycache__
+*.idea/
+*.ipynb
+*example*
+*.lock
