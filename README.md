@@ -15,6 +15,8 @@
 4.强化学习前沿：介绍其i昂化学习的前沿知识及实践领域
 
 如果对《强化学习的数学原理》和《动手强化学习》两门课程感兴趣的话可以移步：
+
+
 [西湖大学赵世钰老师的《强化学习的数学原理》课程地址](https://www.bilibili.com/video/BV1sd4y167NS/)
 
 [西湖大学赵世钰老师的《强化学习的数学原理》GitHub仓库](https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning)
